@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>formulier</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+
+      <img align="left" src="download.png" width="150" height="75" alt="">
+
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="opleiding.html">Opleiding</a></li>
+        <!-- <li><a href="locaties.html">Locaties</a></li> -->
+        <li><a href="begeleiding.html">Begeleiding</a></li>
+        <li class="dropdown"><a href="#" class="dropbtn">Software</a>
+          <div class="dropdown-content">
+            <a href="van-school.html">Van school</a>
+            <a href="voor-leerlingen.html">Voor leerlingen</a>
+
+        <li><a href="examen.html">Examen</a></li>
+        <li><a href="BSA.html">BSA</a></li>
+
+
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="formt">Formulier voor open dagen</h1>
+
+
+    <section class="forma">
+  
+      <form action="/action_page.php">
+        <label for="fname">Voornaam:</label><br>
+        <input class="input" type="text" id="fname" name="fname" pattern="[A-Za-z]"><br>
+        <label for="lname">Achternaam:</label><br>
+        <input class="input" type="text" id="lname" name="lname" pattern="[A-Za-z]"><br><br>
+      </form>
+
+      <form action="/action_page.php">
+        <label for="woonplaats">woonplaats:</label><br>
+        <input class="input" type="text" id="straat en huisnummer"><br>
+        <label for="straat en huisnummer">Straat en Huisnummer:</label><br>
+        <input class="input" type="Land" id="Land" required><br>
+        <label for="postcode">postcode:</label><br>
+        <input class="input" type="text" id="Bsn nummer" pattern="\d*" maxlength="9"><br>
+      </form>
+
+
+      <p>kies je opleiding </p>
+      <form>
+        <input class="checkbox" type="checkbox" id="Man" name="Vakantieland" value="Vakantieland">
+        <label for="software development">Software development</label><br>
+        <input class="checkbox" type="checkbox" id="it expert" name="opleiding" value="it">
+        <label for="IT expert">IT expert</label><br>
+        <!-- <input type="checkbox" id="Bingladish" name="Gender" value="Bingladish">
+          <label for="anders">Bingladish</label> -->
+      </form>
+
+      <br>
+      <br>
+
+      <form action="/action_page.php">
+        <label for="tijd1">kies de datum </label> <br>
+        <input class="checkbox" type="checkbox" id="" name="kies de datum" value="kies de datum">
+        <label for="sd">10 november 2022</label><br>
+        <input class="checkbox" type="checkbox" id="" name="opleiding" value="">
+        <label for="">30 januari 2023</label><br><br><br><br>
+
+        <!-- <label for="aantal reizegers">Aantal reizegers(max 4)</label>
+          <input type="number" id="reis"min="1"max="4"><br><br><br> -->
+        <input class="btn-hover color-5" type="submit" value="Klaar"><br><br><br>
+      </form>
+
+      <p>account aanmaken*</p>
+      <br><br>
+      <form action="action_page.php">
+        <label for="Email">Email:</label><br>
+        <input class="input" type="email" id="email" required> <br><br><br>
+        <label for="pass">Wachtwoord:</label><br>
+        <input class="input" type="password" name="password" id="pass"><br><br><br>
+        <input class="btn-hover color-5" type="submit" value="Account aanmaken">
+      </form>
+    </section>
+  </main>
+<footer class="foot">
+  <button class="btn-hover color-5 fotbtn"><p><a href="form.html">opendagen </a></p></button>
+  <div class="sm">
+  <a href="https://www.instagram.com/techniekcollegerotterdam/">
+    <img align="right" src="instagram-icone-vert.png" width="51" height="51" alt=""> </a>
+
+    <a href="https://nl-nl.facebook.com/techniekcollegerotterdam/">
+      <img align="right" src="facebook-icone-vert.png" width="51" height="51">
+    </a>
+  </div>
+</footer>
+</body>
+
+</html>
